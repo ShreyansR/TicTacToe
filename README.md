@@ -1,3 +1,6 @@
 # TicTacToe
 ![](https://travis-ci.org/ShreyansR/TicTacToe.svg?branch=master)
-A simple c++ program for pvp tic tac toe
+
+A simple c++ program for pvp tic tac toe.
+
+P v AI mode coming soon...
