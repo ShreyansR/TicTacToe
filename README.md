@@ -3,6 +3,6 @@
 
 A simple c++ program for pvp tic tac toe.
 
-Javascript Application Demo at: ![Demo](https://shreyansr.github.io/TicTacToe/index.html)
+Javascript Application Demo at: ![](https://shreyansr.github.io/TicTacToe/index.html)
 
 P v AI mode coming soon...
