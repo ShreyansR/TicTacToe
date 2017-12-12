@@ -112,6 +112,7 @@ function myFunction(){
       (document.getElementById('8').innerHTML != "I") &&
       (y == 0)){
         alert("DRAW!!");
+        reDraw();
         return false;
       }
 		}
