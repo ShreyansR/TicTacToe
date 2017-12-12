@@ -100,6 +100,20 @@ function myFunction(){
  				reDraw();
 				return false;
 			}
+
+      else if ((document.getElementById('0').innerHTML != "A") &&
+      (document.getElementById('1').innerHTML != "B") &&
+      (document.getElementById('2').innerHTML != "C") &&
+      (document.getElementById('3').innerHTML != "D") &&
+      (document.getElementById('4').innerHTML != "E") &&
+      (document.getElementById('5').innerHTML != "F") &&
+      (document.getElementById('6').innerHTML != "G") &&
+      (document.getElementById('7').innerHTML != "H") &&
+      (document.getElementById('8').innerHTML != "I") &&
+      (y == 0)){
+        alert("DRAW!!");
+        return false;
+      }
 		}
 
 
