@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Tic Tac Toe </title>
+  <link rel="stylesheet" href="style.css">
+  <script src="tictactoe.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+  <!-- header sections -->
+  <div class="header">
+    <h1>Tic Tac Toe</h1>
+  </div>
+  <!-- controls sections: checkboxes -->
+  <div class="controls">
+    <h3>PvP Tic Tac Toe. Player 1 = X and Player 2 = O </h3>
+  </div>
+  <!-- board container -->
+  <div class="boardContainer">
+    <!-- first row -->
+    <div class="row">
+      <div id="0" class="square bottom right"> A </div>
+      <div id="1" class="square bottom right"> B </div>
+      <div id="2" class="square bottom">C</div>
+  </div>
+
+    <!-- second row -->
+    <div class="row">
+      <div id="3" class="square bottom right">D</div>
+      <div id="4" class="square bottom right">E</div>
+      <div id="5" class="square bottom">F</div>
+  </div>
+
+    <!-- third row -->
+    <div class="row">
+      <div id="6" class="square right">G</div>
+      <div id="7" class="square right">H</div>
+      <div id="8" class="square">I</div>
+  </div>
+
+  <div id="player"> Press Start: </div>
+  <input type="button" id="turn" value="Start" onclick="myFunction();">
+
+</div>
+
+</body>
+</html>
