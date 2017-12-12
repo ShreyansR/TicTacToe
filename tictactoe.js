@@ -85,6 +85,7 @@ function myFunction(){
 			 || ((box1 == 'X') && (box5 == 'X') && (box9 == 'X'))
 			 || ((box3 == 'X') && (box5 == 'X') && (box7 == 'X'))){
 				alert("Player 1 Wins");
+        var y = 1;
 				reDraw();
 				return false;
 			}
@@ -98,6 +99,7 @@ function myFunction(){
 			 || ((box1 == 'O') && (box5 == 'O') && (box9 == 'O'))
 			 || ((box3 == 'O') && (box5 == 'O') && (box7 == 'O'))){
         alert("Player 2 Wins");
+        var y = 1;
  				reDraw();
 				return false;
 			}
