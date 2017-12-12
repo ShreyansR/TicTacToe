@@ -75,6 +75,7 @@ function myFunction(){
 				}
       }while(!isValid);
 
+      var y = 0;
       if (((box1 == 'X') && (box2 == 'X') && (box3 == 'X'))
 			 || ((box4 == 'X') && (box5 == 'X') && (box6 == 'X'))
 		   || ((box7 == 'X') && (box8 == 'X') && (box9 == 'X'))
